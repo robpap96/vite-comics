@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    
+    <h1>ashcaiuch</h1>
 </template>
 
 <style lang="scss">

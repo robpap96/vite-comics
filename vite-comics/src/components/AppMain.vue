@@ -4,7 +4,7 @@
         name: 'AppMain',
         components: {
             //AppName
-        }
+        },
     }
 </script>
 

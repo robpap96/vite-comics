@@ -4,7 +4,7 @@
         name: 'AppFooter',
         components: {
             //AppName
-        }
+        },
     }
 </script>
 
