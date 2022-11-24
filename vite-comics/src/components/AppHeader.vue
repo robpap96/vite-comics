@@ -1,16 +1,25 @@
 <script>
-//import AppName from './AppName.vue' ;
+import AppLogo from './AppLogo.vue' ;
+import AppNav from './AppNav.vue' ;
     export default{
         name: 'AppHeader',
         components: {
-            //AppName
+            AppLogo,
+            AppNav,
         }
     }
 </script>
 
 <template>
-    <h1>ashcaiuch</h1>
+    <div class="container">
+        <div class="box">
+            <AppLogo/>
+            <AppNav/>
+        </div>
+   
+    </div>
 </template>
 
 <style lang="scss">
+
 </style>
