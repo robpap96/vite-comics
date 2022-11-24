@@ -1,16 +1,20 @@
 <script>
-//import AppName from './AppName.vue' ;
+import ContentSection from './ContentSection.vue' ;
+import ServiceSection from './ServiceSection.vue' ;
     export default{
         name: 'AppMain',
         components: {
-            //AppName
+            ContentSection,
+            ServiceSection,
         },
     }
 </script>
 
 <template>
-    
+    <ContentSection/>
+    <ServiceSection/>
 </template>
 
 <style lang="scss">
+
 </style>

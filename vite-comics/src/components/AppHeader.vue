@@ -21,5 +21,7 @@ import AppNav from './AppNav.vue' ;
 </template>
 
 <style lang="scss">
-
+    .box {
+        padding: 20px 10px;
+    }
 </style>

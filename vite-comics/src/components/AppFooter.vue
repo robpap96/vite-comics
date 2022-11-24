@@ -1,15 +1,18 @@
 <script>
-//import AppName from './AppName.vue' ;
+import FooterTop from './FooterTop.vue' ;
+import FooterBottom from './FooterBottom.vue' ;
     export default{
         name: 'AppFooter',
         components: {
-            //AppName
+            FooterTop,
+            FooterBottom,
         },
     }
 </script>
 
 <template>
-    
+    <FooterTop/>
+    <FooterBottom/>
 </template>
 
 <style lang="scss">
