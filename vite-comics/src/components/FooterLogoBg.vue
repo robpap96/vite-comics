@@ -14,5 +14,6 @@
         right: 150px;
         top: 393px;
         width: 26%;
+    
     }
 </style>

@@ -1,27 +1,37 @@
 <script>
+import SocialLinks from './SocialLinks.vue' ;
     export default{
         name: 'FooterBottom',
         components: {
-            //AppName
+            SocialLinks,
         },
+        
     }
 </script>
 
 <template>
-    <section class="footer-bottom">
+    <div class="footer-bottom">
         <div class="container">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="footer-bottom-btn">
+                <button class="sign-up-btn">Sign Up Now!</button>
+            </div>
+            <SocialLinks/>
+            
         </div>
         
-    </section>
+    </div>
 </template>
 
-<style lang="scss">
-    
+<style lang="scss" scoped>
+    .container {
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-bottom {
+        position: relative;
+        z-index: 10;
+        background-color: #303030;
+        padding: 0 50px;
+    }
 </style>
