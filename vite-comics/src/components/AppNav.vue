@@ -1,22 +1,70 @@
 <script>
     export default{
         name: 'AppNav',
+        data() {
+            return{
+                items: [ 
+                    {
+                        href: '#',
+                        label: 'Characters',
+                        active: false,   
+                    },  
+                    {
+                        href: '#',
+                        label: 'Comics',
+                        active: false,   
+                    },
+                    {
+                        href: '#',
+                        label: 'Movies',
+                        active: false,   
+                    },
+                    {
+                        href: '#',
+                        label: 'TV',
+                        active: false,   
+                    },
+                    {
+                        href: '#',
+                        label: 'Games',
+                        active: false,   
+                    },
+                    {
+                        href: '#',
+                        label: 'Collectibles',
+                        active: false,   
+                    },
+                    {
+                        href: '#',
+                        label: 'Videos',
+                        active: false,   
+                    },
+                    {
+                        href: '#',
+                        label: 'Fans',
+                        active: false,   
+                    },
+                    {
+                        href: '#',
+                        label: 'News',
+                        active: false,   
+                    },
+                    {
+                        href: '#',
+                        label: 'Shop',
+                        active: false,   
+                    },
+                ]
+            }    
+        }
     }
 
 </script>
 
 <template>
     <ul class="d-flex">
-        <li>Characters</li>
-        <li>Comics</li>
-        <li>Movies</li>
-        <li>TV</li>
-        <li>Games</li>
-        <li>Collectibles</li>
-        <li>Videos</li>
-        <li>Fans</li>
-        <li>News</li>
-        <li>Shop</li>
+        <li v-for="item in items">{{item.label}}</li>
+
     </ul>
 </template>
 

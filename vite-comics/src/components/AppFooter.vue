@@ -11,9 +11,15 @@ import FooterBottom from './FooterBottom.vue' ;
 </script>
 
 <template>
-    <FooterTop/>
-    <FooterBottom/>
+    <footer>
+        <FooterTop/>
+        <FooterBottom/>
+
+    </footer>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
+    footer{
+        background-image: url('../assets/footer-bg.jpg');
+    }
 </style>

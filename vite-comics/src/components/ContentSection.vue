@@ -4,20 +4,25 @@
         components: {
             //AppName
         },
+        data() {
+            return{
+                msg: '-->Content goes here<--'
+            }
+        }
     }
 </script>
 
 <template>
-    <section class="content-section">
+    <section>
         <div class="container">
-            <h2> -->Content goes here__</h2>
+            <h2> {{msg}}</h2>
         </div>
         
     </section>
 </template>
 
-<style lang="scss">
-    .content-section {
+<style lang="scss" scoped>
+    section {
         color: white;
         background-color: black;
         padding: 50px 20px;
