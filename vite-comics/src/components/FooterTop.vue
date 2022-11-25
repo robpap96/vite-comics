@@ -50,7 +50,7 @@
                     ],
                     Shop:[
                         {
-                            title: 'Shop'
+                            title: 'SHOP'
                         },
                         {
                             name:'Shop DC',
@@ -66,7 +66,7 @@
                     ],
                     Dc:[
                         {
-                            title: 'Dc'
+                            title: 'DC'
                         },
                         {
                             name:'Terms Of Use',
@@ -126,7 +126,7 @@
                     ],
                     Sites:[
                         {
-                            title: 'Sites'
+                            title: 'SITES'
                         },
                         {
                             name:'DC',
@@ -162,16 +162,17 @@
 </script>
 
 <template>
-    <div>
+    <div class="footer-top">
         <FooterLogoBg/>
         <div class="container">
             <ul v-for="footerItem in FooterTitle">
                 <li v-for="item in footerItem" class="title">
                     <div class="title">
-                        {{item[0].title}}
+                        {{item.title}}
                     </div>
-
-                    {{item.}}
+                    <div class="link">
+                        {{item.name}}
+                    </div>
                 </li>
             </ul>
 
@@ -181,10 +182,27 @@
 </template>
 
 <style lang="scss" scoped>
+    .footer-top {
+        padding: 50px;
+        display: flex;
+        justify-content: flex-start;
+        width:500px;
+    }
     .container{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
-        position: relative;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: relative;   
+        max-height: 260px;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px ;
+        width: 200px;
+
     }
     .title {
         font-size: 25px;

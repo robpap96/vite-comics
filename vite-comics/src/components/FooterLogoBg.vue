@@ -12,5 +12,7 @@
     img {
         position: absolute;
         right: 150px;
+        top: 393px;
+        width: 26%;
     }
 </style>
