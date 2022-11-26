@@ -11,8 +11,9 @@
 <style lang="scss" scoped>
     img {
         position: absolute;
-        right: -700px;
-        top: 393px;
-        width: 46%;
+    right: -700px;
+    bottom: 100px;
+    right: 250px;
+    width: 29%;
     }
 </style>

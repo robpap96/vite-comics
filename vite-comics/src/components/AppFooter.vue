@@ -21,5 +21,6 @@ import FooterBottom from './FooterBottom.vue' ;
 <style lang="scss" scoped>
     footer{
         background-image: url('../assets/footer-bg.jpg');
+        position: relative;
     }
 </style>

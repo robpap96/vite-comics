@@ -7,7 +7,7 @@
         },
         data() {
             return{
-                msg: '-->Content goes here<--'
+           
             }
         }
     }
