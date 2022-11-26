@@ -23,6 +23,7 @@ import SocialLinks from './SocialLinks.vue' ;
 </template>
 
 <style lang="scss" scoped>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css') ;
     .container {
         padding: 50px;
         display: flex;

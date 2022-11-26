@@ -49,6 +49,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css') ;
+
     ul {
         display: flex;
     }
@@ -57,5 +59,8 @@
     }
     .social-links {
         max-width: 20%;
+    }
+    span {
+        color: #0282f9;
     }
 </style>

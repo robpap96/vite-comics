@@ -1,8 +1,9 @@
 <script>
+    import HeroJumbotron from './HeroJumbotron.vue';
     export default{
         name: 'ContentSection',
         components: {
-            //AppName
+            HeroJumbotron,
         },
         data() {
             return{
@@ -12,10 +13,12 @@
     }
 </script>
 
-<template>
-    <section>
+<template> 
+    <HeroJumbotron/>
+    <section> 
+       
         <div class="container">
-            <h2> {{msg}}</h2>
+ 
         </div>
         
     </section>
@@ -24,7 +27,6 @@
 <style lang="scss" scoped>
     section {
         color: white;
-        background-color: black;
         padding: 50px 20px;
     }
 </style>
