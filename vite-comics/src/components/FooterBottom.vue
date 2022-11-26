@@ -1,5 +1,5 @@
 <script>
-import SocialLinks from './SocialLinks.vue' ;
+    import SocialLinks from './SocialLinks.vue' ;
     export default{
         name: 'FooterBottom',
         components: {

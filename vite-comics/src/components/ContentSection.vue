@@ -1,9 +1,11 @@
 <script>
     import HeroJumbotron from './HeroJumbotron.vue';
+    import AppCard from './AppCard.vue';
     export default{
         name: 'ContentSection',
         components: {
             HeroJumbotron,
+            AppCard,
         },
         data() {
             return{
@@ -15,12 +17,10 @@
 
 <template> 
     <HeroJumbotron/>
-    <section> 
-       
+    <section>     
         <div class="container">
- 
-        </div>
-        
+            <AppCard/>
+        </div>   
     </section>
 </template>
 
@@ -28,5 +28,9 @@
     section {
         color: white;
         padding: 50px 20px;
+        background-color: #1c1c1c;
+    }
+    .container {
+        padding: 20px 0;
     }
 </style>
