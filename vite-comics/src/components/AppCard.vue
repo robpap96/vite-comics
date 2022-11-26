@@ -2,7 +2,7 @@
     export default{
         name: 'AppCard',
         components: {
-            SocialLinks,
+            //AppName
         },
         data(){
             return{
@@ -86,20 +86,27 @@
 </script>
 
 <template>
-    <div class="card">
+    <div class="card" v-for="item in cards">
         <div class="card-image">
-            <img :src="`${cards.thumb}`" alt="">
+            <img :src="`${item.thumb}`" alt="">
         </div>
         <div class="card-title">
-            {{cards.series}}
+            {{item.series}}
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
     .card{
-        width: calc(100% / 6 - 20px);
-        margin-bottom: 20px;
-        margin: 0 10px;
+        width: calc(100% / 6 - 40px);
+        padding-bottom: 50px;
+        margin: 0 20px;
+        text-align: center;
+        img {
+            width: 100%;
+        }
+        .card-title {
+            font-size: 20px;
+        }
     }
 </style>
