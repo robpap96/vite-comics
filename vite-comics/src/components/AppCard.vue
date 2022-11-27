@@ -103,7 +103,8 @@
         margin: 0 20px;
         text-align: center;
         img {
-            width: 100%;
+            width: 13vw;
+            height: 13vw;
         }
         .card-title {
             font-size: 20px;
