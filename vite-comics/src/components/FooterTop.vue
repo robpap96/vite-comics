@@ -186,7 +186,7 @@
         padding: 50px;
         display: flex;
         justify-content: flex-start;
-        width:500px;
+        width:880px;
     }
     .container{
         display: flex;
